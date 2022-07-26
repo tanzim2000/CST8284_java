@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>4</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>456</x>
+      <y>124</y>
+      <w>196</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>/Programmer/
+--
+-firstName:String
+-lastName:String
+-socialSecurityNumber:String
+-birthDate:Date
+--
++Programmer(firstName:String lastName:String
+socialSecurityNumber:String month:int year:int)
++getFirstName():String
++getLastName():String
++getSocialSecurityNumber():String
++getBirthDate():Date
++toString():String
+/+earnings():double/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>156</x>
+      <y>444</y>
+      <w>232</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>BasePlusCommissionProgrammer
+--
+-baseSalary:double
+--
++BasePlusCommissionProgrammer(firstName:String
+lastName:String socialSecurityNumber:String
+month:int year:int grossSales:double commissionRate:double
+baseSalary:double)
++setBaseSalary(baseSalary:double):void
++getBaseSalary():double
++earnings():double
++toString():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>156</x>
+      <y>300</y>
+      <w>220</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>CommissionProgrammer
+--
+-grossSales:double
+-commissionRate:double
+--
++CommissionProgrammer(firstName:String
+lastName:String socialSecurityNumber:String
+month:int year:int grossSales:double commissionRate:double)
++setGrossSales(grossSales:double):void
++getGrossSales():double
++setCommissionRate(commissionRate:double):void
++getCommissionRate():double
++earnings():double
++toString():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>564</x>
+      <y>300</y>
+      <w>164</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>HourlyProgrammer
+--
+-wage:double
+-hours:double
+--
++HourlyProgrammer(firstName:String
+lastName:String socialSecurityNumber:String
+month:int year:int wage:double hours:double)
++setWage(wage:double):void
++getWage():double
++setHours(hours:double):void
++getHours():double
++earnings():double
++toString():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>388</x>
+      <y>300</y>
+      <w>164</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>SalariedProgrammer
+--
+-weeklySalary:double
+--
++SalariedProgrammer(firstName:String
+lastName:String socialSecurityNumber:String
+month:int year:int weeklySalary:double)
++setWeeklySalary(weeklySalary:double):void
++getWeeklySalary():double
++earnings():double
++toString():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>748</x>
+      <y>300</y>
+      <w>204</w>
+      <h>116</h>
+    </coordinates>
+    <panel_attributes>ActionProgrammer
+--
+-wage:double
+-pieces:double
+--
++ActionProgrammer(firstName:String
+lastName:String socialSecurityNumber:String
+month:int year:int wage:double pieces:double)
++setWage(wage:double):void
++getWage():double
++setPieces(pieces:double):void
++getPieces():double
++earnings():double
++toString():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>228</x>
+      <y>408</y>
+      <w>12</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>228</x>
+      <y>260</y>
+      <w>592</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;30.0;1460.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>228</x>
+      <y>268</y>
+      <w>12</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>268</y>
+      <w>12</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>616</x>
+      <y>268</y>
+      <w>12</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>808</x>
+      <y>268</y>
+      <w>12</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>252</y>
+      <w>12</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+</diagram>

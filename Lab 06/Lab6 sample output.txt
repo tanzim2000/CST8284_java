@@ -1,0 +1,63 @@
+Date object constructor for date 6/1992
+Date object constructor for date 12/1981
+Date object constructor for date 9/1983
+Date object constructor for date 3/1978
+Programmers are processed individually:
+
+salaried programmer: Emmanuel Okoro
+social security number: 123-11-4567
+birth month and year: 6/1992
+weekly salary: $500.00
+earned: $500.00
+
+hourly programmer: Mary Cheng
+social security number: 890-22-1234
+birth month and year: 12/1981
+hourly wage: $16.75; hours worked: 40.00
+earned: $670.00
+
+commission programmer: Martha Peter
+social security number: 567-33-8901
+birth month and year: 9/1983
+gross sales: $23,000.00; commission rate: 0.06
+earned: $1,380.00
+
+base-salaried commission programmer: John Mark
+social security number: 234-44-5678
+birth month and year: 3/1978
+gross sales: $9,000.00; commission rate: 0.04; base salary: $300.00
+earned: $660.00
+
+Enter the current month (1 - 12): 6
+
+Programmers processed polymorphically:
+
+salaried programmer: Emmanuel Okoro
+social security number: 123-11-4567
+birth month and year: 6/1992
+weekly salary: $500.00
+earned $500.00 plus $500.00 birthday bonus
+
+hourly programmer: Mary Cheng
+social security number: 890-22-1234
+birth month and year: 12/1981
+hourly wage: $16.75; hours worked: 40.00
+earned $670.00
+
+commission programmer: Martha Peter
+social security number: 567-33-8901
+birth month and year: 9/1983
+gross sales: $23,000.00; commission rate: 0.06
+earned $1,380.00
+
+base-salaried commission programmer: John Mark
+social security number: 234-44-5678
+birth month and year: 3/1978
+gross sales: $9,000.00; commission rate: 0.04; base salary: $300.00
+new base salary with 10% increase is: $330.00
+earned $690.00
+
+Programmer 0 is a polylab.SalariedProgrammer
+Programmer 1 is a polylab.HourlyProgrammer
+Programmer 2 is a polylab.CommissionProgrammer
+Programmer 3 is a polylab.BasePlusCommissionProgrammer
