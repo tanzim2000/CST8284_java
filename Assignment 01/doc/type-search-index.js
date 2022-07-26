@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"<Unnamed>","l":"Action"},{"p":"<Unnamed>","l":"ActionDriver"},{"p":"<Unnamed>","l":"ActionDriver2"},{"p":"<Unnamed>","l":"AllActionTest"},{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"OcassionalAction"},{"p":"<Unnamed>","l":"RareAction"},{"p":"<Unnamed>","l":"RegularAction"}]
