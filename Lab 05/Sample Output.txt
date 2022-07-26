@@ -1,0 +1,16 @@
+
+THESE ARE JUST THE SAMPLE OUTPUTS!!!
+
+SAMPLE OUTPUT FOR SalesAgentTest
+
+Sales Agent [name=Andrew,age=42]
+Sales Supervisor [super=Sales Agent [name=James,age=26],location=Perth]
+
+
+
+SAMPLE OUTPUT FOR SalesAgentTest2
+
+Sales Agent [name=Peter, age=56]
+Sales Agent [name=John, age=48]
+Sales Supervisor [super=Sales Agent [name=Ifeoma, age=53],location=Toronto]
+Sales Chief [super=Sales Supervisor [super=Sales Agent [name=Ndidi Oma, age=35],location=Ottawa]]
