@@ -1,0 +1,57 @@
+
+FIND BELOW THE SAMPLE OUTPUT FOR ASSIGNMENT 1:
+
+PART 1
+
+RegularAction is just a subclass of Action: true
+Expected: true
+RegularAction activities have no extra fields:true
+Expected: true
+Looking at regular actions: Wash your hands
+Expected: Wash your hands
+true
+Expected: true
+
+
+SAMPLE OUTPUT FOR PART 2
+
+OccasionalAction is subclass of Action: true
+Expected: true
+RareAction is subclass of Action: true
+Expected: true
+OccasionalAction have no extra fields:true
+Expected: true
+RareAction have no extra fields:true
+Expected: true
+
+
+
+SAMPLE OUTPUT FOR PART 3
+
+
+Enter a date (like 2010 01 30): 2022 05 01
+These are your actions on 05/01/2022:
+Wash your hands.
+Take a PCR test.
+Sit two meters apart.
+
+Enter a date (like 2018 01 30): 2022 12 15
+These are your actions on 12/15/2022:
+Wash your hands.
+Get a booster shot.
+Sit two meters apart.
+
+
+Enter a date (like 2018 01 30): 2022 06 01
+These are your actions on 06/01/2022:
+Wash your hands.
+Take a PCR test.
+Get a booster shot.
+Sit two meters apart.
+
+
+Enter a date (like 2018 01 30): 2022 02 26
+These are your actions on 02/26/2022:
+Wash your hands
+Sit two meters apart
+
